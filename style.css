@@ -1,0 +1,199 @@
+body {
+    background-image: linear-gradient(to right,yellowgreen,red,blue);
+}
+
+.main-title{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.Maine-title {
+    color: red
+    
+}
+
+.game-title {
+      font-style:oblique
+}
+
+
+.food-title {
+      font-style:italic;
+      color:brown;
+      
+}
+
+.pancake-title{
+       font-size: medium;
+       font-style: initial;
+       color: darkblue;
+       font-size: larger;
+}
+
+.cards-article:hover {
+    
+    transform: scale(1.05);
+
+}
+
+.cart-item {
+    border-radius: 30px ;
+       width: 301px;
+       height: 500px;
+       background-color: greenyellow;
+       position: relative;
+       box-shadow: 0px 0px 8px 5px;
+       overflow: scroll;
+       transition:  all 1s;
+}
+
+.card-list {
+     display: flex;
+       gap: 50px;
+       list-style: none;
+       flex-wrap: wrap;
+}
+
+.main-text {
+    text-align: center;
+    background-color: rgba(225, 226, 127, 0.3);
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+
+.game-tatle {
+    border-radius: 30px ;
+    width: 300px;
+       height: 500px;
+       background-color: khaki;
+     
+       box-shadow: 0px 0px 8px 5px;
+       position: relative;
+
+}
+
+.mine-title{
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: indianred;
+    height: 500px;
+    overflow: scroll;
+    position: relative;
+    box-shadow: 0px 0px 8px 5px;
+    
+}
+
+.title-eat{
+    font-style: italic;
+    color:purple;
+    font-size: large;
+}
+   
+
+.game-title1{
+    font-style:initial;
+    color:rgb(73, 26, 159);
+    font-size: larger;
+
+}
+
+.food-title2{
+    font-style:italic ;
+    color: rgb(69, 11, 184) ;
+    font-size: large;
+    
+
+}
+
+
+img {
+    width: 100%;
+}
+
+
+h2{
+text-shadow :3px 3px 2px  skyblue ;
+text-transform: uppercase ;
+text-align: center;
+}
+
+
+
+.cart-item:hover .overlay{
+    background-color:green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+.overlay {
+    opacity: 0;
+    
+}
+
+
+
+.header {
+    background-image: radial-gradient( ellipse at center, greenyellow, khaki);
+    height: 200px;
+}
+
+.page-link {
+    font-size: 44px;
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+    display: block;
+    text-decoration-line: none;
+    
+}
+
+.header {
+    background-color: aqua;
+}
+
+.main-name {
+    font-weight: 900;
+    color: red;
+}
+
+h2{
+   
+    text-transform: uppercase ;
+    text-align: center;
+}
+
+.main-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    text-shadow: -3px -3px 5px yellowgreen;
+    font-size: 86px;
+    font-style: italic;
+}
+
+.page-link:hover {
+    transform: rotate(360deg);
+
+}
+
+.main-title:hover{
+    
+    color: rgb(236, 183, 6);
+    cursor: pointer;
+
+}
+
+.pages{
+    display:flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
